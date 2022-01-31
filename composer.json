@@ -1,0 +1,22 @@
+{
+    "name": "ighor/test",
+    "autoload": {
+        "psr-4": {
+            "Ighor\\Test\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ighor Ayan Passig",
+            "email": "ighor.passig@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "bulveyz/router-php": "^1.0",
+        "doctrine/orm": "^2.11",
+        "symfony/cache": "^6.0",
+        "doctrine/annotations": "^1.13",
+        "symfony/yaml": "^6.0"
+    }
+}
